@@ -5,7 +5,7 @@ const talkedRecently = new Set();
 
 
 client.on("ready", () => {
-  console.log("Vex ★ MrHAMA")
+  console.log("Vex ★ EBO")
   client.user.setActivity("Send Link Robot UP , MrHama")
 })
 
