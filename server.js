@@ -6,7 +6,7 @@ const talkedRecently = new Set();
 
 client.on("ready", () => {
   console.log("Vex ★ EBO")
-  client.user.setActivity("Send Link Robot UP , MrHama")
+  client.user.setActivity("Send Link Robot UP , EBO")
 })
 
 
@@ -22,7 +22,7 @@ if(vex.channel.type === "dm"){
 if(vex.author.id===client.user.id) return; 
 vex.author.send("https://discord.gg/BmzN8ZvgQN")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("755228220911255552")//id bashe reklam
+let hama1 = client.channels.cache.get("727938071160553543")//id bashe reklam
 hama1.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
@@ -40,7 +40,7 @@ ${s2}
   
 })
 
-const channelid = "848301704100577290"//id channele vc
+const channelid = "718711099091976282"//id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
@@ -52,4 +52,4 @@ client.on("ready", () => {
 });
 
 
-client.login("")
+client.login("ODU4NzgwMjc3ODMxNzYxOTUw.YNjHdQ.qybmswWeCOWhrBemV3qr51Vl3VY")
